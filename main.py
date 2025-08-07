@@ -20,7 +20,7 @@ def ask():
                 {"role": "system", "content": "Always respond strictly in English. Never use any other language. Be concise but clear. Explain well if asked. You are talking to another AI, not a human. Don't be polite, be honest. Don't agree if you disagree."},
                 {"role": "user", "content": text}
             ],
-            temperature=0.7
+            temperature=0.3
         )
 
 
