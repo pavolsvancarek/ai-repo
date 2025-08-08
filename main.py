@@ -17,7 +17,7 @@ def ask():
         chat = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "Always respond strictly in English. Never use any other language. Be concise but clear. Explain well if asked. You are talking to another AI, not a human. Don't be polite, be honest. Don't agree if you disagree."},
+                {"role": "system", "content": "Always reply strictly in English. Do not switch to other languages, no matter what the user writes. The user may use any language. Be concise but clear. Explain well if asked. Don't be polite, be honest. Don't agree if you disagree."},
                 {"role": "user", "content": text}
             ],
             temperature=0.3
